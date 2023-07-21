@@ -1,0 +1,179 @@
+\hypertarget{class_gracz}{}\doxysection{Gracz Class Reference}
+\label{class_gracz}\index{Gracz@{Gracz}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_gracz_ac86fa93b613bbe5a0d26b89487da26f1}{Gracz}} (string nick)
+\item 
+\mbox{\Hypertarget{class_gracz_af778020dfd1e1da3e23c9bf43a5c6006}\label{class_gracz_af778020dfd1e1da3e23c9bf43a5c6006}} 
+void {\bfseries set\+Aktualny\+Pokemon} (int aktualny\+Pokemon)
+\item 
+\mbox{\Hypertarget{class_gracz_a276a4ed72a92234c47c9e4c0ccadabab}\label{class_gracz_a276a4ed72a92234c47c9e4c0ccadabab}} 
+int {\bfseries get\+Aktualny\+Pokemon} () const
+\item 
+\mbox{\Hypertarget{class_gracz_a330bf33ff5953da9bb748d85a54e3eae}\label{class_gracz_a330bf33ff5953da9bb748d85a54e3eae}} 
+vector$<$ \mbox{\hyperlink{class_pokemon}{Pokemon}} $>$ \& {\bfseries get\+Pokemony\+Gracza} ()
+\item 
+void \mbox{\hyperlink{class_gracz_aeceb296bab938b5b2650f7722b57fdb9}{tura}} (\mbox{\hyperlink{class_gracz}{Gracz}} \&gracz2)
+\item 
+int \mbox{\hyperlink{class_gracz_a3769bd6378e267967d53b44541d00620}{wyswietl\+Menu}} ()
+\item 
+\mbox{\Hypertarget{class_gracz_a37e20b89724022e4916b81300cfec427}\label{class_gracz_a37e20b89724022e4916b81300cfec427}} 
+bool {\bfseries is\+Number} (char s)
+\item 
+void \mbox{\hyperlink{class_gracz_a75a073d30c0a7ad2691534a254375cd5}{pokemon\+Atakuje\+Pokemona}} (\mbox{\hyperlink{class_gracz}{Gracz}} \&gracz2)
+\item 
+bool \mbox{\hyperlink{class_gracz_aa7cc9c676ca234987b7a39b1b0838e76}{czy\+Pokemon\+Trafil}} (const \mbox{\hyperlink{class_pokemon}{Pokemon}} \&pokemon2)
+\item 
+double \mbox{\hyperlink{class_gracz_ac031c1cb7a3c38630025a93be0cad5c2}{jaka\+Moc\+Ataku}} (const \mbox{\hyperlink{class_pokemon}{Pokemon}} \&pokemon)
+\item 
+bool \mbox{\hyperlink{class_gracz_a876dd8cdfe7b601718f30ea73fd5cd86}{czy\+Jakikolwiek\+Pokemon\+Zyje}} ()
+\item 
+void \mbox{\hyperlink{class_gracz_adae11df85283027a2f6657d6e8495dd3}{koniec\+Gry}} ()
+\item 
+\mbox{\Hypertarget{class_gracz_a84e598a003556055a900ecf667d89204}\label{class_gracz_a84e598a003556055a900ecf667d89204}} 
+const string \& {\bfseries get\+Nick} () const
+\item 
+void \mbox{\hyperlink{class_gracz_a8484992151d3e8587226388931ee7c63}{pokemon\+Atakuje\+Moca\+Specjalna\+Pokemona}} (const \mbox{\hyperlink{class_pokemon}{Pokemon}} \&pokemon)
+\item 
+void \mbox{\hyperlink{class_gracz_a59a8111d518df32ef1853bf3c6958907}{wybierz\+Pokemona\+Do\+Zmiany}} ()
+\item 
+\mbox{\Hypertarget{class_gracz_af5befdca627eb6466013ee9b3a9da826}\label{class_gracz_af5befdca627eb6466013ee9b3a9da826}} 
+void {\bfseries przeciwnik\+Wybiera\+Pokemona\+Do\+Zmiany} (\mbox{\hyperlink{class_gracz}{Gracz}} \&gracz2)
+\item 
+bool \mbox{\hyperlink{class_gracz_ae7b6e977825d70aab1f1d0bf98334a89}{czy\+Jest\+Naliscie\+Zyjacych\+Pokemonow}} (int number)
+\item 
+\mbox{\Hypertarget{class_gracz_a36f436b95c82d42c6a4acc9d14869850}\label{class_gracz_a36f436b95c82d42c6a4acc9d14869850}} 
+bool {\bfseries is\+Czy\+Pokonany} () const
+\item 
+\mbox{\Hypertarget{class_gracz_a32db340fb87fa10f77dba41c6e89d40f}\label{class_gracz_a32db340fb87fa10f77dba41c6e89d40f}} 
+void {\bfseries set\+Czy\+Pokonany} (bool czy\+Pokonany)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_gracz_ac86fa93b613bbe5a0d26b89487da26f1}\label{class_gracz_ac86fa93b613bbe5a0d26b89487da26f1}} 
+\index{Gracz@{Gracz}!Gracz@{Gracz}}
+\index{Gracz@{Gracz}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{Gracz()}{Gracz()}}
+{\footnotesize\ttfamily Gracz\+::\+Gracz (\begin{DoxyParamCaption}\item[{string}]{nick }\end{DoxyParamCaption})}
+
+Stworzenie nowego obiektu klasy gracz 
+\begin{DoxyParams}{Parameters}
+{\em nick} & Imie gracza \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_gracz_a876dd8cdfe7b601718f30ea73fd5cd86}\label{class_gracz_a876dd8cdfe7b601718f30ea73fd5cd86}} 
+\index{Gracz@{Gracz}!czyJakikolwiekPokemonZyje@{czyJakikolwiekPokemonZyje}}
+\index{czyJakikolwiekPokemonZyje@{czyJakikolwiekPokemonZyje}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{czyJakikolwiekPokemonZyje()}{czyJakikolwiekPokemonZyje()}}
+{\footnotesize\ttfamily bool Gracz\+::czy\+Jakikolwiek\+Pokemon\+Zyje (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja sprawdzajaca pokemony gracza, na rzecz ktorego wywolywana jest funkcja, czy jakikolwiek z nich jest zyjacy \begin{DoxyReturn}{Returns}
+true -\/ jesli ktorys z pokemonow jest zdatny do walki, false -\/ jesli żaden 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_gracz_ae7b6e977825d70aab1f1d0bf98334a89}\label{class_gracz_ae7b6e977825d70aab1f1d0bf98334a89}} 
+\index{Gracz@{Gracz}!czyJestNaliscieZyjacychPokemonow@{czyJestNaliscieZyjacychPokemonow}}
+\index{czyJestNaliscieZyjacychPokemonow@{czyJestNaliscieZyjacychPokemonow}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{czyJestNaliscieZyjacychPokemonow()}{czyJestNaliscieZyjacychPokemonow()}}
+{\footnotesize\ttfamily bool Gracz\+::czy\+Jest\+Naliscie\+Zyjacych\+Pokemonow (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})}
+
+Funkcja sprawdzajaca czy podany numer pokemona jest na liscie zyjacych pokemonow 
+\begin{DoxyParams}{Parameters}
+{\em number} & numer na liscie pokemonow gracza \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+czy pokemon jest na liscie -\/ true, jesli nie -\/ false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_gracz_aa7cc9c676ca234987b7a39b1b0838e76}\label{class_gracz_aa7cc9c676ca234987b7a39b1b0838e76}} 
+\index{Gracz@{Gracz}!czyPokemonTrafil@{czyPokemonTrafil}}
+\index{czyPokemonTrafil@{czyPokemonTrafil}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{czyPokemonTrafil()}{czyPokemonTrafil()}}
+{\footnotesize\ttfamily bool Gracz\+::czy\+Pokemon\+Trafil (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_pokemon}{Pokemon}} \&}]{pokemon2 }\end{DoxyParamCaption})}
+
+Funkcja sprawdzajaca czy pokemon, na rzecz ktorego jest wywolywana funkcja, trafil pokemona podanego w parametrze 
+\begin{DoxyParams}{Parameters}
+{\em pokemon2} & \mbox{\hyperlink{class_pokemon}{Pokemon}}, ktory ma zostac trafiony \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+zwraca czy pokemon zostal trafiony czy nie 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_gracz_ac031c1cb7a3c38630025a93be0cad5c2}\label{class_gracz_ac031c1cb7a3c38630025a93be0cad5c2}} 
+\index{Gracz@{Gracz}!jakaMocAtaku@{jakaMocAtaku}}
+\index{jakaMocAtaku@{jakaMocAtaku}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{jakaMocAtaku()}{jakaMocAtaku()}}
+{\footnotesize\ttfamily double Gracz\+::jaka\+Moc\+Ataku (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_pokemon}{Pokemon}} \&}]{pokemon }\end{DoxyParamCaption})}
+
+Funkcja sprawdzajaca jakiego typu jest pokemon, na rzecz ktorego jest wywolywana funkcja oraz typ przeciwnika, w zaleznosci od typu jest wypisywane zdanie okreslajace czy jest to super efektywne, malo efektywne. 
+\begin{DoxyParams}{Parameters}
+{\em pokemon} & \mbox{\hyperlink{class_pokemon}{Pokemon}}, ktory zostanie zaatakowany \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca moc ataku, jesli super efektywne -\/ 2, malo efektywne -\/ 0.\+5, normalne -\/ 1 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_gracz_adae11df85283027a2f6657d6e8495dd3}\label{class_gracz_adae11df85283027a2f6657d6e8495dd3}} 
+\index{Gracz@{Gracz}!koniecGry@{koniecGry}}
+\index{koniecGry@{koniecGry}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{koniecGry()}{koniecGry()}}
+{\footnotesize\ttfamily void Gracz\+::koniec\+Gry (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja wypisujaca zakonczenie gry \mbox{\Hypertarget{class_gracz_a8484992151d3e8587226388931ee7c63}\label{class_gracz_a8484992151d3e8587226388931ee7c63}} 
+\index{Gracz@{Gracz}!pokemonAtakujeMocaSpecjalnaPokemona@{pokemonAtakujeMocaSpecjalnaPokemona}}
+\index{pokemonAtakujeMocaSpecjalnaPokemona@{pokemonAtakujeMocaSpecjalnaPokemona}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{pokemonAtakujeMocaSpecjalnaPokemona()}{pokemonAtakujeMocaSpecjalnaPokemona()}}
+{\footnotesize\ttfamily void Gracz\+::pokemon\+Atakuje\+Moca\+Specjalna\+Pokemona (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_pokemon}{Pokemon}} \&}]{pokemon }\end{DoxyParamCaption})}
+
+Funkcja ataku moca specjalna 
+\begin{DoxyParams}{Parameters}
+{\em pokemon} & pokemon, ktory zostanie zaatakowany \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gracz_a75a073d30c0a7ad2691534a254375cd5}\label{class_gracz_a75a073d30c0a7ad2691534a254375cd5}} 
+\index{Gracz@{Gracz}!pokemonAtakujePokemona@{pokemonAtakujePokemona}}
+\index{pokemonAtakujePokemona@{pokemonAtakujePokemona}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{pokemonAtakujePokemona()}{pokemonAtakujePokemona()}}
+{\footnotesize\ttfamily void Gracz\+::pokemon\+Atakuje\+Pokemona (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_gracz}{Gracz}} \&}]{gracz2 }\end{DoxyParamCaption})}
+
+Funkcja wywolujaca atak pokemona gracza, na rzecz ktorego jest wywolywana funkcja, na pokemona gracza podanego w parametrze 
+\begin{DoxyParams}{Parameters}
+{\em gracz2} & \mbox{\hyperlink{class_gracz}{Gracz}}, ktorego pokemon zostanie zaatakowany \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gracz_aeceb296bab938b5b2650f7722b57fdb9}\label{class_gracz_aeceb296bab938b5b2650f7722b57fdb9}} 
+\index{Gracz@{Gracz}!tura@{tura}}
+\index{tura@{tura}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{tura()}{tura()}}
+{\footnotesize\ttfamily void Gracz\+::tura (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_gracz}{Gracz}} \&}]{gracz2 }\end{DoxyParamCaption})}
+
+Funkcja wykonuje w zaleznosci od naszego wyboru Zwykly atak naszego pokemona, Moc specjalna naszego pokemona Zmiane naszego pokemona lub jego mega ewolucje 
+\begin{DoxyParams}{Parameters}
+{\em gracz2} & Przeciwnik \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_gracz_a59a8111d518df32ef1853bf3c6958907}\label{class_gracz_a59a8111d518df32ef1853bf3c6958907}} 
+\index{Gracz@{Gracz}!wybierzPokemonaDoZmiany@{wybierzPokemonaDoZmiany}}
+\index{wybierzPokemonaDoZmiany@{wybierzPokemonaDoZmiany}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{wybierzPokemonaDoZmiany()}{wybierzPokemonaDoZmiany()}}
+{\footnotesize\ttfamily void Gracz\+::wybierz\+Pokemona\+Do\+Zmiany (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja wypisujaca wszystkie pokemony. Zamienia naszego pokemona z wybranym. \mbox{\Hypertarget{class_gracz_a3769bd6378e267967d53b44541d00620}\label{class_gracz_a3769bd6378e267967d53b44541d00620}} 
+\index{Gracz@{Gracz}!wyswietlMenu@{wyswietlMenu}}
+\index{wyswietlMenu@{wyswietlMenu}!Gracz@{Gracz}}
+\doxysubsubsection{\texorpdfstring{wyswietlMenu()}{wyswietlMenu()}}
+{\footnotesize\ttfamily int Gracz\+::wyswietl\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja wyswietlajaca menu walki z przeciwnikiem, i zapisujaca nasz wybor \begin{DoxyReturn}{Returns}
+Numer wyboru 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Gracz.\+h\item 
+Gracz.\+cpp\end{DoxyCompactItemize}

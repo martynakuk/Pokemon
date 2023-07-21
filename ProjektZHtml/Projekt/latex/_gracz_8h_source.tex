@@ -1,0 +1,63 @@
+\hypertarget{_gracz_8h_source}{}\doxysection{Gracz.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef PROJEKT\_GRACZ\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define PROJEKT\_GRACZ\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}Pokemon.h"{}}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{keyword}{class }\mbox{\hyperlink{class_gracz}{Gracz}} \{}
+\DoxyCodeLine{11     vector<Pokemon> pokemonyGracza;}
+\DoxyCodeLine{12     \textcolor{keywordtype}{int} aktualnyPokemon;}
+\DoxyCodeLine{13     \textcolor{keywordtype}{string} nick;}
+\DoxyCodeLine{14     \textcolor{keywordtype}{bool} czyPokonany;}
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{21     \mbox{\hyperlink{class_gracz_ac86fa93b613bbe5a0d26b89487da26f1}{Gracz}}(\textcolor{keywordtype}{string} nick);}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23     \textcolor{keywordtype}{void} setAktualnyPokemon(\textcolor{keywordtype}{int} aktualnyPokemon);}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25     \textcolor{keywordtype}{int} getAktualnyPokemon() \textcolor{keyword}{const};}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27     vector<Pokemon>\& getPokemonyGracza();}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{35     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gracz_aeceb296bab938b5b2650f7722b57fdb9}{tura}}(\mbox{\hyperlink{class_gracz}{Gracz}} \&gracz2);}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{41     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_gracz_a3769bd6378e267967d53b44541d00620}{wyswietlMenu}}();}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43     \textcolor{keywordtype}{bool} isNumber(\textcolor{keywordtype}{char} s);}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{50     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gracz_a75a073d30c0a7ad2691534a254375cd5}{pokemonAtakujePokemona}}(\mbox{\hyperlink{class_gracz}{Gracz}} \&gracz2);}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{58     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_gracz_aa7cc9c676ca234987b7a39b1b0838e76}{czyPokemonTrafil}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_pokemon}{Pokemon}}\& pokemon2);}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{67     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_gracz_ac031c1cb7a3c38630025a93be0cad5c2}{jakaMocAtaku}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_pokemon}{Pokemon}}\& pokemon);}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{74     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_gracz_a876dd8cdfe7b601718f30ea73fd5cd86}{czyJakikolwiekPokemonZyje}}();}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{79     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gracz_adae11df85283027a2f6657d6e8495dd3}{koniecGry}}();}
+\DoxyCodeLine{80 }
+\DoxyCodeLine{81     \textcolor{keyword}{const} \textcolor{keywordtype}{string} \&getNick() \textcolor{keyword}{const};}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{87     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gracz_a8484992151d3e8587226388931ee7c63}{pokemonAtakujeMocaSpecjalnaPokemona}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_pokemon}{Pokemon}}\& pokemon);}
+\DoxyCodeLine{88 }
+\DoxyCodeLine{93     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gracz_a59a8111d518df32ef1853bf3c6958907}{wybierzPokemonaDoZmiany}}();}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{95     \textcolor{keywordtype}{void} przeciwnikWybieraPokemonaDoZmiany(\mbox{\hyperlink{class_gracz}{Gracz}} \&gracz2);}
+\DoxyCodeLine{96 }
+\DoxyCodeLine{102     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_gracz_ae7b6e977825d70aab1f1d0bf98334a89}{czyJestNaliscieZyjacychPokemonow}}(\textcolor{keywordtype}{int} number);}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{104     \textcolor{keywordtype}{bool} isCzyPokonany() \textcolor{keyword}{const};}
+\DoxyCodeLine{105 }
+\DoxyCodeLine{106     \textcolor{keywordtype}{void} setCzyPokonany(\textcolor{keywordtype}{bool} czyPokonany);}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{108 \};}
+\DoxyCodeLine{109 }
+\DoxyCodeLine{110 }
+\DoxyCodeLine{111 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//PROJEKT\_GRACZ\_H}}
+
+\end{DoxyCode}

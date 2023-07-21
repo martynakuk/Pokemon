@@ -1,0 +1,8 @@
+# ninja log v5
+1	519	7116247232496820	build.ninja	d2e834de3ad66d63
+2	832	6782077568860863	CMakeFiles/main.dir/main.cpp.obj	1083a54c5cba0d36
+1065	1388	6782077574399292	main.exe	2552f966e20a40f4
+25	746	6782077567950888	CMakeFiles/main.dir/Pokemon.cpp.obj	6e1a8b50ce029b90
+18	1064	6782077571190852	CMakeFiles/main.dir/Walka.cpp.obj	2d22e2ecce07dc25
+21	823	6782077568730869	CMakeFiles/main.dir/MocSpecjalna.cpp.obj	88b05ed366589f27
+23	904	6782077569580866	CMakeFiles/main.dir/Gracz.cpp.obj	b2f8fc2fd496ec16

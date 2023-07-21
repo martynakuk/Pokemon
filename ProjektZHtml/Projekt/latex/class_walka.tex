@@ -1,0 +1,147 @@
+\hypertarget{class_walka}{}\doxysection{Walka Class Reference}
+\label{class_walka}\index{Walka@{Walka}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_walka_a7cf3f55cbb8b6710ac4a38d769449e99}{Walka}} (\mbox{\hyperlink{class_gracz}{Gracz}} \&gracz1)
+\item 
+\mbox{\Hypertarget{class_walka_ab44175f5f838072edb0d408c54ac8ed8}\label{class_walka_ab44175f5f838072edb0d408c54ac8ed8}} 
+vector$<$ \mbox{\hyperlink{class_pokemon}{Pokemon}} $>$ \& {\bfseries get\+Pokedex} ()
+\item 
+\mbox{\Hypertarget{class_walka_a526e1117a10e3d389bbee6dd20d349d7}\label{class_walka_a526e1117a10e3d389bbee6dd20d349d7}} 
+vector$<$ \mbox{\hyperlink{class_gracz}{Gracz}} $>$ \& {\bfseries get\+Elitarna\+Czworka} ()
+\item 
+void \mbox{\hyperlink{class_walka_a8c05d22f88cd70831c8824fafd4445f3}{set\+Elitarna\+Czworka}} ()
+\item 
+\mbox{\Hypertarget{class_walka_a60a95324a8a4a3f0b7da042287101d22}\label{class_walka_a60a95324a8a4a3f0b7da042287101d22}} 
+\mbox{\hyperlink{class_gracz}{Gracz}} \& {\bfseries get\+Glowny\+Gracz} ()
+\item 
+\mbox{\Hypertarget{class_walka_ae040f43d165c71f4bbd0b4a843b507bf}\label{class_walka_ae040f43d165c71f4bbd0b4a843b507bf}} 
+void {\bfseries start} ()
+\item 
+void \mbox{\hyperlink{class_walka_ac1be5eaa08b523ed3f19a7fed2ec36f8}{wybor\+Gracza}} ()
+\item 
+void \mbox{\hyperlink{class_walka_af0478b6e4a1d5491048416b331723a37}{dodaj\+Pokemony\+Do\+Pokedexu}} ()
+\item 
+void \mbox{\hyperlink{class_walka_ab08f55d526cdb6a3ca1650f6d3905276}{skompletuj\+Druzyne}} ()
+\item 
+void \mbox{\hyperlink{class_walka_af03108baec12abb95d8ff94c6fda2e4d}{wypisanie\+Info\+PC}} (\mbox{\hyperlink{class_gracz}{Gracz}} \&gracz2)
+\item 
+bool \mbox{\hyperlink{class_walka_aa3b8c001f3b736534859620dc200a67e}{sprawdza\+Czy\+Elitarna\+Czworka\+Pokonana}} ()
+\item 
+void \mbox{\hyperlink{class_walka_aceec0531260105808180df87985fe6e7}{wielka\+Walka\+ZElitarna\+Czworka}} ()
+\item 
+int \mbox{\hyperlink{class_walka_a4a307df1318df344bc503bf19ae5aa8f}{na\+Ktorym\+Indeksie\+ZElitarnej\+Czworki\+Zostala\+Rozgrywka}} ()
+\item 
+void \mbox{\hyperlink{class_walka_af70ffd83ae09f09f353ba1c607b897f3}{ruch\+PC}} (\mbox{\hyperlink{class_gracz}{Gracz}} \&gracz2)
+\item 
+\mbox{\Hypertarget{class_walka_a118c4893b436da1db8c03d5b5fcf149c}\label{class_walka_a118c4893b436da1db8c03d5b5fcf149c}} 
+int {\bfseries get\+Turn} () const
+\item 
+\mbox{\Hypertarget{class_walka_a84fbd38c688d09bc31e1e0b8cb50a51c}\label{class_walka_a84fbd38c688d09bc31e1e0b8cb50a51c}} 
+void {\bfseries set\+Turn} (int turn)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_walka_a94924a771780ea6638f72838a9105c07}{wyswietl\+Poczatek}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_walka_a7cf3f55cbb8b6710ac4a38d769449e99}\label{class_walka_a7cf3f55cbb8b6710ac4a38d769449e99}} 
+\index{Walka@{Walka}!Walka@{Walka}}
+\index{Walka@{Walka}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{Walka()}{Walka()}}
+{\footnotesize\ttfamily Walka\+::\+Walka (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_gracz}{Gracz}} \&}]{gracz1 }\end{DoxyParamCaption})}
+
+Obiekt, ktorego glownym graczem bedzie nasza postac 
+\begin{DoxyParams}{Parameters}
+{\em gracz1} & Nasza postac \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_walka_af0478b6e4a1d5491048416b331723a37}\label{class_walka_af0478b6e4a1d5491048416b331723a37}} 
+\index{Walka@{Walka}!dodajPokemonyDoPokedexu@{dodajPokemonyDoPokedexu}}
+\index{dodajPokemonyDoPokedexu@{dodajPokemonyDoPokedexu}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{dodajPokemonyDoPokedexu()}{dodajPokemonyDoPokedexu()}}
+{\footnotesize\ttfamily void Walka\+::dodaj\+Pokemony\+Do\+Pokedexu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja inicjująca liste pokemonów w pokedexie \mbox{\Hypertarget{class_walka_a4a307df1318df344bc503bf19ae5aa8f}\label{class_walka_a4a307df1318df344bc503bf19ae5aa8f}} 
+\index{Walka@{Walka}!naKtorymIndeksieZElitarnejCzworkiZostalaRozgrywka@{naKtorymIndeksieZElitarnejCzworkiZostalaRozgrywka}}
+\index{naKtorymIndeksieZElitarnejCzworkiZostalaRozgrywka@{naKtorymIndeksieZElitarnejCzworkiZostalaRozgrywka}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{naKtorymIndeksieZElitarnejCzworkiZostalaRozgrywka()}{naKtorymIndeksieZElitarnejCzworkiZostalaRozgrywka()}}
+{\footnotesize\ttfamily int Walka\+::na\+Ktorym\+Indeksie\+ZElitarnej\+Czworki\+Zostala\+Rozgrywka (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja sprawdza na ktorym indeksie w liscie przeciwnikow zostala zakonczona rozgrywka \begin{DoxyReturn}{Returns}
+zwraca nr. indeksu 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_walka_af70ffd83ae09f09f353ba1c607b897f3}\label{class_walka_af70ffd83ae09f09f353ba1c607b897f3}} 
+\index{Walka@{Walka}!ruchPC@{ruchPC}}
+\index{ruchPC@{ruchPC}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{ruchPC()}{ruchPC()}}
+{\footnotesize\ttfamily void Walka\+::ruch\+PC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_gracz}{Gracz}} \&}]{gracz2 }\end{DoxyParamCaption})}
+
+Funkcja losujaca, czy pokemon przeciwnika bedzie atakowac normalnym atakiem, czy moca specjalna, jesli normalny atak, wywola funkcje z normalnym atakiem, jesli moc specjalna, wywola funkcje z moca specjalna 
+\begin{DoxyParams}{Parameters}
+{\em gracz2} & Przeciwnik \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_walka_a8c05d22f88cd70831c8824fafd4445f3}\label{class_walka_a8c05d22f88cd70831c8824fafd4445f3}} 
+\index{Walka@{Walka}!setElitarnaCzworka@{setElitarnaCzworka}}
+\index{setElitarnaCzworka@{setElitarnaCzworka}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{setElitarnaCzworka()}{setElitarnaCzworka()}}
+{\footnotesize\ttfamily void Walka\+::set\+Elitarna\+Czworka (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja inicjujaca liste przeciwnikow, z ktorymi gracz bedzie walczyc \mbox{\Hypertarget{class_walka_ab08f55d526cdb6a3ca1650f6d3905276}\label{class_walka_ab08f55d526cdb6a3ca1650f6d3905276}} 
+\index{Walka@{Walka}!skompletujDruzyne@{skompletujDruzyne}}
+\index{skompletujDruzyne@{skompletujDruzyne}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{skompletujDruzyne()}{skompletujDruzyne()}}
+{\footnotesize\ttfamily void Walka\+::skompletuj\+Druzyne (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja pozwalajaca na dodanie pokemona z pokedexu do naszej listy pokemonow \mbox{\Hypertarget{class_walka_aa3b8c001f3b736534859620dc200a67e}\label{class_walka_aa3b8c001f3b736534859620dc200a67e}} 
+\index{Walka@{Walka}!sprawdzaCzyElitarnaCzworkaPokonana@{sprawdzaCzyElitarnaCzworkaPokonana}}
+\index{sprawdzaCzyElitarnaCzworkaPokonana@{sprawdzaCzyElitarnaCzworkaPokonana}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{sprawdzaCzyElitarnaCzworkaPokonana()}{sprawdzaCzyElitarnaCzworkaPokonana()}}
+{\footnotesize\ttfamily bool Walka\+::sprawdza\+Czy\+Elitarna\+Czworka\+Pokonana (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja sprawdzajaca czy 4 przeciwnikow z ktorymi bedziemy walczyc, sa pokonani \begin{DoxyReturn}{Returns}
+Zwraca true, jesli pokonalismy 4 przeciwnikow, false jesli nie 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_walka_aceec0531260105808180df87985fe6e7}\label{class_walka_aceec0531260105808180df87985fe6e7}} 
+\index{Walka@{Walka}!wielkaWalkaZElitarnaCzworka@{wielkaWalkaZElitarnaCzworka}}
+\index{wielkaWalkaZElitarnaCzworka@{wielkaWalkaZElitarnaCzworka}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{wielkaWalkaZElitarnaCzworka()}{wielkaWalkaZElitarnaCzworka()}}
+{\footnotesize\ttfamily void Walka\+::wielka\+Walka\+ZElitarna\+Czworka (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja, w ktorej walczymy z elitarna czworka Jest po kolei wypisany nr. rundy, informacje o pokemonach Nasz pokemon atakuje przeciwnika, a pozniej przeciwnik naszego \mbox{\Hypertarget{class_walka_ac1be5eaa08b523ed3f19a7fed2ec36f8}\label{class_walka_ac1be5eaa08b523ed3f19a7fed2ec36f8}} 
+\index{Walka@{Walka}!wyborGracza@{wyborGracza}}
+\index{wyborGracza@{wyborGracza}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{wyborGracza()}{wyborGracza()}}
+{\footnotesize\ttfamily void Walka\+::wybor\+Gracza (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Jest to funkcja przekierowująca do danego wyboru gracza na początku gry Między innymi\+: skompletowanie drużyny, zapisywanie aktualnego stanu rozgrywki, walka z 4 przeciwnikami \mbox{\Hypertarget{class_walka_af03108baec12abb95d8ff94c6fda2e4d}\label{class_walka_af03108baec12abb95d8ff94c6fda2e4d}} 
+\index{Walka@{Walka}!wypisanieInfoPC@{wypisanieInfoPC}}
+\index{wypisanieInfoPC@{wypisanieInfoPC}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{wypisanieInfoPC()}{wypisanieInfoPC()}}
+{\footnotesize\ttfamily void Walka\+::wypisanie\+Info\+PC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_gracz}{Gracz}} \&}]{gracz2 }\end{DoxyParamCaption})}
+
+Funkcja wyswietlajaca jakiego pokemona gracz wyrzuca, oraz jego zycie 
+\begin{DoxyParams}{Parameters}
+{\em gracz2} & Wypisujemy informacje aktualnym pokemonie gracza, ktory zostal przekazany parametrem \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_walka_a94924a771780ea6638f72838a9105c07}\label{class_walka_a94924a771780ea6638f72838a9105c07}} 
+\index{Walka@{Walka}!wyswietlPoczatek@{wyswietlPoczatek}}
+\index{wyswietlPoczatek@{wyswietlPoczatek}!Walka@{Walka}}
+\doxysubsubsection{\texorpdfstring{wyswietlPoczatek()}{wyswietlPoczatek()}}
+{\footnotesize\ttfamily void Walka\+::wyswietl\+Poczatek (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Funkcja wyswietlajaca wybory, jakie gracz moze podjac wpisujac liczbę/literę 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Walka.\+h\item 
+Walka.\+cpp\end{DoxyCompactItemize}
